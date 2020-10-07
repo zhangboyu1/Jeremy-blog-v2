@@ -13,21 +13,33 @@
     <script src="assets/js/popper2.min.js"></script>
     <script src="assets/js/jquery-1.12.1.min.js"></script>
     <script src="assets/js/jquery.modal.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap4.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/fullPageStyle.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/mdb.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/jquery.modal.min.css">
+    <link rel="stylesheet" href="assets/css/customStyle.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
     <div id="fullpage">
-        <section class="section active section-one main-page" id="section0">
+        <div class="section active section-one main-page" id="section0">
             <div class="main-page circle">
                 <div class="profile-image">
-                    <img id="profileImage" src="assets/images/profile-image.jpg" alt="Akhil Vijayan">
+                    <img id="profileImage" src="assets/images/profile.jpg" alt="Akhil Vijayan">
                 </div>
                 <p id="profileName">Jeremy Zhang</p>
                 <p id="headingText">Full Stack Developer</p>
                 <p><button id="buttonExplore">Explore Me</button></p>
             </div>
-        </section>
-        <section class="section section-three" id="section1">
+        </div>
+        <div class="section section-three" id="section1">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="skills-page">
@@ -53,7 +65,7 @@
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">React.js</li>
                             <li class="list-group-item">JavaScript, jQuery</li>
-                            <li class="list-group-item">HTML5, CSS3, Bootstrap</li>
+                            <li class="list-group-item">HTML5, CSS3, MaterialUI</li>
                         </ul>
                     </div>
                     <div class="card" style="width: 18rem;">
@@ -68,8 +80,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section" id="section2">
+        </div>
+        <div class="section" id="section2">
             <!-- Need to look at wheather carousel-example-multi is built in library..or not? -->
             <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
                 <div id="project-section">Projects</div>
@@ -83,11 +95,11 @@
                     <div class="carousel-item active">
                         <div class="col-12 col-md-4">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="assets/images/lets-eat.png" alt="Lets-Eat">
+                                <img class="card-img-top" src="assets/images/personal-v1.png" alt="Lets-Eat">
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold">Personal-web-v1</h4>
                                     <p class="card-text"><strong>Skils: </strong>JS,HTML5,CSS3</p>
-                                    <p><a class="card-github" href="https://github.com/akhil411/Lets-Eat"
+                                    <p><a class="card-github" href="https://github.com/"
                                             target="_blank"><strong>Github</strong></a></p>
                                     <a class="btn btn-primary btn-md btn-rounded" href="http://www.grayslife.com/"
                                         target="_blank">Explore</a>
@@ -98,7 +110,7 @@
                     <div class="carousel-item">
                         <div class="col-12 col-md-4">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="assets/images/art-school.png" alt="hangman">
+                                <img class="card-img-top" src="assets/images/home-manager.png" alt="hangman">
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold">Home manager App</h4>
                                     <p class="card-text"><strong>Skills: </strong>React.js, Redux.js, Node.js, MongoDB,
@@ -115,7 +127,7 @@
                     <div class="carousel-item">
                         <div class="col-12 col-md-4">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="assets/images/art-school.png" alt="hangman">
+                                <img class="card-img-top" src="assets/images/sheildTask.png" alt="hangman">
                                 <div class="card-body">
                                     <h4 class="card-title font-weight-bold"> Shield Task</h4>
                                     <p class="card-text"><strong>Skills: </strong>React.js, Redux.js, Node.js, MongoDB
@@ -131,8 +143,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section" id="section3">
+        </div>
+        <div class="section" id="section3">
             <div class="row">
                 <div class="col-12">
                     <div id="contact-section">Contact</div>
@@ -151,7 +163,8 @@
 
                         <!-- Need to add a downloadPDF page for that  -->
                         <div class="contact-topRight">
-                            <a href=""><img src="assets/images/resume-icon.png" title="Resume" alt="Resume"></a>
+                            <a href="./CV__Boyu-developer.pdf"><img src="assets/images/resume-icon.png" title="Resume"
+                                    alt="Resume"></a>
                         </div>
                         <div class="contact-bottomLeft">
                             <a href="mailto:boyuzhang888@gmail.com" target="_top"><img src="assets/images/mail.png"
@@ -164,8 +177,8 @@
                     </div>
                 </div>
             </div>
+        </div>
     </div>
-    </section>
 
     <!-- modal section.... -->
     <div id="ex1" class="modal">
